@@ -39,11 +39,14 @@ function init () {
 			var reader = new FileReader();
 
 			reader.onload = function (e) {
+				//$('#uploadedImage')
+				//	.attr('background-image', e.target.result)
+				//	.width(150)
+				//	.height(200)
+				//	.slideDown(400);
 				$('#uploadedImage')
 					.attr('src', e.target.result)
-					.width(150)
-					.height(200)
-		.slideDown(400);
+					.slideDown(400);
 			};
 
 			reader.readAsDataURL(input.files[0]);

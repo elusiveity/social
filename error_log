@@ -8,3 +8,13 @@ Stack trace:
   thrown in /home/uirl/public_html/libs/sysplugins/smarty_internal_template.php on line 163
 [24-Apr-2018 14:10:20 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:postblock.tpl' in 'index.tpl' <-- 
   thrown in /home/uirl/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[24-Apr-2018 16:26:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bindParam() on boolean in /home/uirl/public_html/funcs/general.php:10
+Stack trace:
+#0 /home/uirl/public_html/login.php(29): login('asd', 'asd')
+#1 {main}
+  thrown in /home/uirl/public_html/funcs/general.php on line 10
+[24-Apr-2018 16:27:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on boolean in /home/uirl/public_html/funcs/general.php:10
+Stack trace:
+#0 /home/uirl/public_html/login.php(29): login('asd', 'asd')
+#1 {main}
+  thrown in /home/uirl/public_html/funcs/general.php on line 10
