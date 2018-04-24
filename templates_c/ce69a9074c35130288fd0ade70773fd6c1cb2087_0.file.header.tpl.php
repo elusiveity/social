@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-04-24 16:14:54
+/* Smarty version 3.1.30, created on 2018-04-24 16:58:59
   from "/home/uirl/public_html/templates/header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5adf57fe958749_27305567',
+  'unifunc' => 'content_5adf62532df3e8_67127925',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ce69a9074c35130288fd0ade70773fd6c1cb2087' => 
     array (
       0 => '/home/uirl/public_html/templates/header.tpl',
-      1 => 1524586237,
+      1 => 1524589135,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5adf57fe958749_27305567 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5adf62532df3e8_67127925 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <HTML>
 <HEAD>
@@ -42,6 +42,11 @@ function content_5adf57fe958749_27305567 (Smarty_Internal_Template $_smarty_tpl)
 	<div class='container'>
 	<a class="navbar-brand" href="/"><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 </a>
+	<?php if (isset($_SESSION['name'])) {?>
+	<div class='navbar-right'>
+		<a href='logout.php' class='btn btn-danger'><i class="fas fa-sign-out-alt"></i></a>
+	</div>
+	<?php }?>
 	</div>
 </nav>
 <div style='height: 70px'></div>

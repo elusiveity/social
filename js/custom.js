@@ -54,18 +54,6 @@ function init () {
 }
 
 
-// Remote custom button
-function setup() {
-	document.getElementById('fauxfubutton').addEventListener('click', openDialog);
-	function openDialog() {
-		document.getElementById('file').click();
-	}
-	document.getElementById('file').addEventListener('change', submitForm);
-	function submitForm() {
-		document.getElementById('postblock').submit();
-	}
-}
-
 // Remote custom button for file upload take two this time with jquery
 // .... goddamnit.
 

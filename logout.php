@@ -26,6 +26,8 @@ try {
 
 $smarty->assign("title", "Social");
 
+logout();
+
 if (isset($error))
 {
 	$smarty->display('error.tpl');

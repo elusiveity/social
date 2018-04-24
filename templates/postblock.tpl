@@ -13,7 +13,7 @@
 			<input type="file" id='file' name='file' onchange="readURL(this);" hidden='true'>
 		</div>
 	<div class='card-footer text-right' style='padding: 7px'>
-		<button class='btn btn-primary btn-sm' id='fauxfubutton' onclick='thisFileUpload()'><i class="far fa-image"></i></button>
+		<button type='button' class='btn btn-primary btn-sm' id='fauxfubutton' onclick='thisFileUpload()'><i class="far fa-image"></i></button>
 		<button type='submit' class='btn btn-primary btn-sm'><i class="far fa-share-square"></i></button>
 	</div>
 </form>

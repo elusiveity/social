@@ -29,6 +29,7 @@ if (isset($_POST['username']) && isset($_POST['password']))
 	if (login($_POST['username'], $_POST['password']))
 	{
 		$smarty->assign("title", "Loggin");
+		header("location: /");
 	} else {
 		$smarty->assign("title", "Wrong credentials");
 	}

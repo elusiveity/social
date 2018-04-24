@@ -11,6 +11,11 @@
 <nav class="navbar fixed-top navbar-light bg-light">
 	<div class='container'>
 	<a class="navbar-brand" href="/">{$title}</a>
+	{if isset($smarty.session.name)}
+	<div class='navbar-right'>
+		<a href='logout.php' class='btn btn-danger'><i class="fas fa-sign-out-alt"></i></a>
+	</div>
+	{/if}
 	</div>
 </nav>
 <div style='height: 70px'></div>
