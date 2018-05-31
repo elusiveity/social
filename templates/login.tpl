@@ -1,6 +1,6 @@
 {include file="header.tpl"}
 
-<form action='login.php' method='post'>
+<form action='login.php' method='post' class='w-50 mt-2 mx-auto'>
 	<div class='input-group mb-3'>
 		<div class='input-group-prepend'>
 			<span class='input-group-text'>Username</span>
@@ -17,5 +17,4 @@
 		<button type='submit' class='btn btn-primary'>Login</button>
 	</div>
 </form>
-
 {include file="footer.tpl"}

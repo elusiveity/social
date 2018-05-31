@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-04-24 16:58:59
+/* Smarty version 3.1.30, created on 2018-05-31 00:37:12
   from "/home/uirl/public_html/templates/header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5adf62532df3e8_67127925',
+  'unifunc' => 'content_5b0f43b811fad5_07650428',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ce69a9074c35130288fd0ade70773fd6c1cb2087' => 
     array (
       0 => '/home/uirl/public_html/templates/header.tpl',
-      1 => 1524589135,
+      1 => 1527727030,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5adf62532df3e8_67127925 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b0f43b811fad5_07650428 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <HTML>
 <HEAD>
@@ -44,7 +44,18 @@ function content_5adf62532df3e8_67127925 (Smarty_Internal_Template $_smarty_tpl)
 </a>
 	<?php if (isset($_SESSION['name'])) {?>
 	<div class='navbar-right'>
-		<a href='logout.php' class='btn btn-danger'><i class="fas fa-sign-out-alt"></i></a>
+<div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+		<!-- a href='logout.php' class='btn btn-danger'><i class="fas fa-sign-out-alt"></i></a -->
 	</div>
 	<?php }?>
 	</div>

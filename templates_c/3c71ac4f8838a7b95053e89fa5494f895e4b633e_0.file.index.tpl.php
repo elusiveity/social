@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-04-24 14:19:21
+/* Smarty version 3.1.30, created on 2018-05-31 00:41:53
   from "/home/uirl/public_html/templates/index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5adf3ce9832d41_34333402',
+  'unifunc' => 'content_5b0f44d1ceb3e1_87417698',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3c71ac4f8838a7b95053e89fa5494f895e4b633e' => 
     array (
       0 => '/home/uirl/public_html/templates/index.tpl',
-      1 => 1524579560,
+      1 => 1527727311,
       2 => 'file',
     ),
   ),
@@ -23,27 +23,28 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5adf3ce9832d41_34333402 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b0f44d1ceb3e1_87417698 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
 
+<!-- Example split danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
+
 <div class='row'>
 	<div class='col'>
-		<ul class="nav flex-column">
-			<li class="nav-item">
-				<a class="nav-link active" href="#">Active</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Link</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Link</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link disabled" href="#">Disabled</a>
-			</li>
-		</ul>
 	</div>
 	<div class='col-7'>
 	<?php $_smarty_tpl->_subTemplateRender("file:postblock.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);

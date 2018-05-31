@@ -13,7 +13,18 @@
 	<a class="navbar-brand" href="/">{$title}</a>
 	{if isset($smarty.session.name)}
 	<div class='navbar-right'>
-		<a href='logout.php' class='btn btn-danger'><i class="fas fa-sign-out-alt"></i></a>
+<div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+		<!-- a href='logout.php' class='btn btn-danger'><i class="fas fa-sign-out-alt"></i></a -->
 	</div>
 	{/if}
 	</div>

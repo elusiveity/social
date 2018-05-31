@@ -25,6 +25,7 @@ try {
 }
 
 $smarty->assign("title", "Social");
+$smarty->assign("navbarProfilepic", "/img/ultrasmall-profile.jpg");
 
 if (isset($error))
 {

@@ -16,3 +16,16 @@
 	min-width: 100%;
 	height: auto;
 }
+
+.ctm-round
+{
+	border-radius: 20px;
+	width: 30px;
+	height: 30px;
+}
+
+.ctm-round img
+{
+	width: 30px;
+	height: 30px;
+}
